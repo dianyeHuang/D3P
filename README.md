@@ -9,7 +9,7 @@
 
 <br>
 
-This repository contains the official implementation of the paper “Deep Koopman-boosted Dual-branch Diffusion Policy for Imitation Learning.” We propose a Deep Koopman-boosted Dual-branch Diffusion Policy (D3P) algorithm, which integrates dual-branch sensory decoupling and a Deep Koopman Operator to to decouple the roles of different sensory modality combinations and enhance the visual representation learning in diffusion-based robotic manipulation. 
+This repository contains the implementation of the paper “Deep Koopman-boosted Dual-branch Diffusion Policy for Imitation Learning.”  [<u>*ArXiv*</u>](https://arxiv.org/abs/2511.00555)
 
 <div align="center">
     <a href="https://www.youtube.com/watch?v=Z3XBALCsUwA" target="_blank">
@@ -19,7 +19,7 @@ This repository contains the official implementation of the paper “Deep Koopma
 
 ## Installation
 
-The repository provides an implementation of the D3P algorithm and has been tested on `Ubuntu 20.04` using `Python 3.8.13`.
+The repository has been tested on `Ubuntu 20.04` using `Python 3.8.13`.
 
 ### 1. Install RLBench
 Refer to the [RLBench_ACT repository](https://github.com/Boxjod/RLBench_ACT?tab=readme-ov-file) for detailed setup instructions.  
@@ -196,11 +196,15 @@ We gratefully acknowledge the following open-source projects that made this work
 - **[Diffusion Policy](https://github.com/real-stanford/diffusion_policy)** – a diffusion-based framework for robot control and imitation learning.  
 - **[ACT (Action Chunking Transformer)](https://github.com/tonyzhaozh/act/tree/main)** – a transformer-based model for efficient policy learning from demonstrations.  
 
-<!-- ## Citation
+## Citation
 If you find this work useful in your research, please cite:
 ```
-xx
-``` -->
-
+@article{huang2025improving,
+  title={Improving Robustness to Out-of-Distribution States in Imitation Learning via Deep Koopman-Boosted Diffusion Policy},
+  author={Huang, Dianye and Navab, Nassir and Jiang, Zhongliang},
+  journal={arXiv preprint arXiv:2511.00555},
+  year={2025}
+}
+```
 
 
